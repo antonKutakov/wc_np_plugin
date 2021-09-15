@@ -1,0 +1,25 @@
+{
+    "name": "extrawest/woo-ukrainian-shipping-delivery",
+    "description": "Woo Ukrainian Shipping Delivery",
+    "type": "project",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "WooUkrainianShippingDelivery\\App\\Controllers\\Novaposhta\\" : "app/controllers/nova-poshta",
+            "WooUkrainianShippingDelivery\\App\\Controllers\\Ukrposhta\\" : "app/controllers/ukrposhta",
+            "WooUkrainianShippingDelivery\\App\\"                   : "app/",
+            "WooUkrainianShippingDelivery\\App\\Controllers\\" : "app/controllers/",
+            "WooUkrainianShippingDelivery\\App\\Helpers\\"     : "app/helpers/",
+            "WooUkrainianShippingDelivery\\App\\Models\\"      : "app/models/",
+            "WooUkrainianShippingDelivery\\App\\Renders\\"     : "app/renders/",
+            "WooUkrainianShippingDelivery\\App\\Renders\\Novaposhta\\"     : "app/renders/nova-poshta",
+            "WooUkrainianShippingDelivery\\App\\Renders\\Ukrposhta\\"     : "app/renders/ukrposhta",
+            "WooUkrainianShippingDelivery\\App\\WCEXT\\Novaposhta\\" : "app/woocommerce-extensions/nova-poshta",
+            "WooUkrainianShippingDelivery\\App\\WCEXT\\Ukrposhta\\" : "app/woocommerce-extensions/ukrposhta",
+            "WooUkrainianShippingDelivery\\App\\Api\\Ukrposhta\\" : "app/api/ukrposhta",
+            "WooUkrainianShippingDelivery\\App\\Api\\Novaposhta\\" : "app/api/nova-poshta"
+
+
+        }
+    }
+}
